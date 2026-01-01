@@ -1,0 +1,17 @@
+syntax = "proto3";
+package openapi;
+service Quote {
+rpc request (ClientRequest) returns (ClientResponse);
+}
+message ClientRequest {
+int32 type = 1;
+string requestId = 2;
+string path = 3;
+bytes payload = 4;
+}
+message ClientResponse {
+int32 type = 1;
+int32 code = 2;
+string msg = 3;
+bytes payload = 4;
+}
