@@ -1,0 +1,293 @@
+{
+  "target": "http://example.com",
+  "headers": [
+    {
+      "base": "http://example.com",
+      "status": 200,
+      "content_type": "text/html",
+      "headers": {
+        "Date": "Thu, 01 Jan 2026 23:49:09 GMT",
+        "Content-Type": "text/html",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Content-Encoding": "gzip",
+        "Last-Modified": "Sat, 20 Dec 2025 05:42:21 GMT",
+        "Allow": "GET, HEAD",
+        "Age": "11614",
+        "cf-cache-status": "HIT",
+        "Vary": "Accept-Encoding",
+        "Server": "cloudflare",
+        "CF-RAY": "9b75e95ca853c988-IAD"
+      }
+    }
+  ],
+  "security_matrix": {},
+  "robots": {
+    "http://example.com": {
+      "status": 404,
+      "disallows": []
+    }
+  },
+  "sitemap": {
+    "http://example.com": {
+      "status": 404,
+      "locs": []
+    }
+  },
+  "mx": {
+    "example.com": {
+      "mx_hosts": [
+        ""
+      ],
+      "advisories": []
+    }
+  },
+  "proto_files": [
+    "./gateway.proto"
+  ],
+  "local_session": {
+    "found": false,
+    "count": 0
+  },
+  "ssl": {
+    "example.com:443": [
+      {
+        "subject": "CN=example.com",
+        "issuer": "CN=Cloudflare TLS Issuing ECC CA 3,O=SSL Corporation,C=US",
+        "not_before": "2025-12-16T19:39:32",
+        "not_after": "2026-03-16T18:32:44",
+        "days_left": 73
+      },
+      {
+        "subject": "CN=Cloudflare TLS Issuing ECC CA 3,O=SSL Corporation,C=US",
+        "issuer": "CN=SSL.com TLS Transit ECC CA R2,O=SSL Corporation,C=US",
+        "not_before": "2025-05-29T19:49:45",
+        "not_after": "2035-05-27T19:49:44",
+        "days_left": 3432
+      },
+      {
+        "subject": "CN=SSL.com TLS Transit ECC CA R2,O=SSL Corporation,C=US",
+        "issuer": "CN=SSL.com TLS ECC Root CA 2022,O=SSL Corporation,C=US",
+        "not_before": "2022-10-21T17:02:23",
+        "not_after": "2037-10-17T17:02:22",
+        "days_left": 4306
+      },
+      {
+        "subject": "CN=SSL.com TLS ECC Root CA 2022,O=SSL Corporation,C=US",
+        "issuer": "CN=AAA Certificate Services,O=Comodo CA Limited,L=Salford,ST=Greater Manchester,C=GB",
+        "not_before": "2025-08-01T00:00:00",
+        "not_after": "2028-12-31T23:59:59",
+        "days_left": 1095
+      }
+    ]
+  },
+  "wallets": {
+    "0x44d871aebF0126Bf646753E2C976Aa7e68A66c15": {
+      "error": "{'code': -32603, 'message': 'Internal error'}"
+    },
+    "123123123123123123123123123123123e": {
+      "error": "status_400"
+    },
+    "123456789012345678901234567890": {
+      "error": "status_400"
+    },
+    "135275564607035429730177404003164635391": {
+      "error": "status_400"
+    },
+    "14df8a024956ea289bd55b9c2226a1d5b8a473ee": {
+      "error": "status_400"
+    },
+    "18535119325151578301457182298393896": {
+      "error": "status_400"
+    },
+    "1da8e603237144f44710360f8feb7a9977e905e0": {
+      "error": "status_400"
+    },
+    "333333333333333333333333333": {
+      "error": "status_400"
+    },
+    "340282346638528859810000000000000000000": {
+      "error": "status_400"
+    },
+    "340282346638528859811704183484516925440": {
+      "error": "status_400"
+    },
+    "340282346638529000000000000000000000000": {
+      "error": "status_400"
+    },
+    "340282350000000000000000000000000000000": {
+      "error": "status_400"
+    },
+    "340300000000000000000000000000000000000": {
+      "error": "status_400"
+    },
+    "35399562948360463058890781895381311971": {
+      "error": "status_400"
+    },
+    "37ea63d540fd27274cad6585082c91b1283f963d": {
+      "error": "status_400"
+    },
+    "3ce4e820c30c114e787bfed00a0966ac4772f563": {
+      "error": "status_400"
+    }
+  },
+  "repo_wallets": [
+    "0x44d871aebF0126Bf646753E2C976Aa7e68A66c15",
+    "123123123123123123123123123123123e",
+    "123456789012345678901234567890",
+    "135275564607035429730177404003164635391",
+    "14df8a024956ea289bd55b9c2226a1d5b8a473ee",
+    "18535119325151578301457182298393896",
+    "1da8e603237144f44710360f8feb7a9977e905e0",
+    "333333333333333333333333333",
+    "340282346638528859810000000000000000000",
+    "340282346638528859811704183484516925440",
+    "340282346638529000000000000000000000000",
+    "340282350000000000000000000000000000000",
+    "340300000000000000000000000000000000000",
+    "35399562948360463058890781895381311971",
+    "37ea63d540fd27274cad6585082c91b1283f963d",
+    "3ce4e820c30c114e787bfed00a0966ac4772f563"
+  ],
+  "lbc": {},
+  "eslint": [
+    {
+      "filePath": "/workspaces/web2dev/.venv/lib/python3.12/site-packages/urllib3/contrib/emscripten/emscripten_fetch_worker.js",
+      "messages": [],
+      "suppressedMessages": [],
+      "errorCount": 0,
+      "fatalErrorCount": 0,
+      "warningCount": 0,
+      "fixableErrorCount": 0,
+      "fixableWarningCount": 0,
+      "usedDeprecatedRules": []
+    },
+    {
+      "filePath": "/workspaces/web2dev/eslint.config.cjs",
+      "messages": [],
+      "suppressedMessages": [],
+      "errorCount": 0,
+      "fatalErrorCount": 0,
+      "warningCount": 0,
+      "fixableErrorCount": 0,
+      "fixableWarningCount": 0,
+      "usedDeprecatedRules": []
+    }
+  ],
+  "js_findings": [
+    {
+      "file": "./node_modules/argparse/argparse.js",
+      "telemetry": [
+        "gtag"
+      ],
+      "unsafe_dom": []
+    },
+    {
+      "file": "./node_modules/lodash.merge/index.js",
+      "telemetry": [
+        "gtag"
+      ],
+      "unsafe_dom": []
+    },
+    {
+      "file": "./node_modules/ajv/dist/ajv.min.js",
+      "telemetry": [],
+      "unsafe_dom": [
+        "new Function("
+      ]
+    },
+    {
+      "file": "./node_modules/ajv/dist/ajv.bundle.js",
+      "telemetry": [],
+      "unsafe_dom": [
+        "new Function("
+      ]
+    },
+    {
+      "file": "./node_modules/ajv/lib/compile/index.js",
+      "telemetry": [],
+      "unsafe_dom": [
+        "new Function("
+      ]
+    },
+    {
+      "file": "./node_modules/js-yaml/dist/js-yaml.js",
+      "telemetry": [
+        "gtag"
+      ],
+      "unsafe_dom": []
+    },
+    {
+      "file": "./node_modules/js-yaml/lib/loader.js",
+      "telemetry": [
+        "gtag"
+      ],
+      "unsafe_dom": []
+    },
+    {
+      "file": "./node_modules/eslint/lib/cli-engine/formatters/html.js",
+      "telemetry": [],
+      "unsafe_dom": [
+        "innerHTML"
+      ]
+    },
+    {
+      "file": "./node_modules/eslint/lib/rules/no-implied-eval.js",
+      "telemetry": [],
+      "unsafe_dom": [
+        "eval("
+      ]
+    },
+    {
+      "file": "./node_modules/eslint/lib/rules/no-eval.js",
+      "telemetry": [],
+      "unsafe_dom": [
+        "eval("
+      ]
+    },
+    {
+      "file": "./node_modules/debug/src/browser.js",
+      "telemetry": [
+        "cookie"
+      ],
+      "unsafe_dom": []
+    },
+    {
+      "file": "./node_modules/eslint-scope/lib/index.js",
+      "telemetry": [],
+      "unsafe_dom": [
+        "eval("
+      ]
+    },
+    {
+      "file": "./node_modules/eslint-scope/lib/scope.js",
+      "telemetry": [],
+      "unsafe_dom": [
+        "eval("
+      ]
+    }
+  ],
+  "js_ast_findings": [
+    {
+      "file": "./node_modules/lodash.merge/index.js",
+      "line": 90,
+      "message": "Function constructor usage"
+    },
+    {
+      "file": "./node_modules/ajv/dist/ajv.min.js",
+      "line": 2,
+      "message": "Function constructor usage"
+    },
+    {
+      "file": "./node_modules/ajv/dist/ajv.bundle.js",
+      "line": 421,
+      "message": "Function constructor usage"
+    },
+    {
+      "file": "./node_modules/ajv/lib/compile/index.js",
+      "line": 120,
+      "message": "Function constructor usage"
+    }
+  ],
+  "generated_at": "2026-01-01T23:49:41.901859"
+}

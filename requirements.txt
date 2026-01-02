@@ -1,0 +1,12 @@
+requests
+beautifulsoup4
+dnspython
+# Colorized console output
+colorama
+# Optional (only needed to compile .proto files locally):
+# grpcio-tools
+pyOpenSSL
+cryptography
+pandas
+esprima
+web3

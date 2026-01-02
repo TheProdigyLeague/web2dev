@@ -1,0 +1,24 @@
+{
+  "name": "web2dev",
+  "version": "1.0.0",
+  "description": "This repository contains a small, safe, read-only scanner `web3_zaxkeroth_scanner.py` that performs passive reconnaissance checks only:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheProdigyLeague/web2dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/TheProdigyLeague/web2dev/issues"
+  },
+  "homepage": "https://github.com/TheProdigyLeague/web2dev#readme",
+  "devDependencies": {
+    "eslint": "^9.39.2"
+  }
+}
